@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/bt_civ_increment_amount"
+        android:layout_width="61dp"
+        android:layout_height="59dp" />
+
+    <TextView
+        android:id="@+id/tv_civ_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6" />
+
+    <ImageButton
+        android:id="@+id/bt_civ_decrement_amount"
+        android:layout_width="59dp"
+        android:layout_height="59dp" />
+
+    <ImageButton
+        android:id="@+id/bt_civ_increment_iterator"
+        android:layout_width="61dp"
+        android:layout_height="59dp" />
+
+    <TextView
+        android:id="@+id/tv_civ_unity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6" />
+
+    <ImageButton
+        android:id="@+id/bt_civ_decrement_iterator"
+        android:layout_width="59dp"
+        android:layout_height="59dp" />
+
+    <EditText
+        android:id="@+id/et_civ_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/bt_civ_add_item"
+        android:layout_width="59dp"
+        android:layout_height="59dp" />
+
+</android.support.design.widget.CoordinatorLayout>
